@@ -2,12 +2,27 @@
 //  CKDispatcherCenter.h
 //  CKDDTest
 //
-//  Created by EasyBenefit on 16/7/1.
+//  Created by 陈凯 on 16/7/1.
 //  Copyright © 2016年 EasyBenefit. All rights reserved.
 //
 
 #import <Foundation/Foundation.h>
 #import <UIKit/UIKit.h>
+
+/**
+  方法类型
+ */
+typedef NS_ENUM(NSInteger, CKMethodType) {
+    /**
+     实例方法
+     */
+    CKMethodTypeInstance = 1,
+    /**
+     类方法
+     */
+    CKMethodTypeClass
+};
+
 NS_ASSUME_NONNULL_BEGIN
 
 @class CKDispatcherMethod,CKDispatcherProperty;
@@ -22,9 +37,9 @@ NS_ASSUME_NONNULL_BEGIN
  *
  *  @return 返回值
  */
-+ (id)performInstanceAction:( CKDispatcherMethod * _Nullable )action
-                 withTarget:( NSString * )target
-           withPropertyList:( NSArray <CKDispatcherProperty *>* _Nullable )propertyList;
++ (id)performAction:( CKDispatcherMethod * _Nullable )action
+         withTarget:( NSString * )target
+   withPropertyList:( NSArray <CKDispatcherProperty *>* _Nullable )propertyList;
 @end
 
 /**
@@ -40,6 +55,8 @@ NS_ASSUME_NONNULL_BEGIN
  *  参数列表
  */
 @property (nonatomic, copy) NSArray * _Nullable argumentList;
+
+@property (nonatomic, assign) CKMethodType methodType;
 @end
 
 /**

@@ -2,7 +2,7 @@
 //  NSObject+CKDispatcher.m
 //  CKDDTest
 //
-//  Created by EasyBenefit on 16/7/1.
+//  Created by 陈凯 on 16/7/1.
 //  Copyright © 2016年 EasyBenefit. All rights reserved.
 //
 
@@ -50,4 +50,7 @@ static char *kAssociatedDispatcherProperty;
     objc_setAssociatedObject(self, &kAssociatedDispatcherProperty, ck_property, OBJC_ASSOCIATION_COPY_NONATOMIC);
 }
 
+- (CKDispatcherProperty *)ck_property{
+    return objc_getAssociatedObject(self, &kAssociatedDispatcherProperty);
+}
 @end

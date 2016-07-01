@@ -2,7 +2,7 @@
 //  NSObject+CKDispatcher.h
 //  CKDDTest
 //
-//  Created by EasyBenefit on 16/7/1.
+//  Created by 陈凯 on 16/7/1.
 //  Copyright © 2016年 EasyBenefit. All rights reserved.
 //
 
