@@ -71,7 +71,7 @@ NS_ASSUME_NONNULL_BEGIN
 /**
  *  属性值
  */
-@property (nonatomic, copy) id propertyValue;
+@property (nonatomic, copy) id _Nullable propertyValue;
 
 /**
  *  自定义属性的类名

@@ -18,6 +18,11 @@
     Class targetClazz = NSClassFromString(target);
     
     if (targetClazz) {
+        
+        if (action && action.methodType == CKMethodTypeClass) {
+            return [targetClazz ck_invoke:action.methodName argumentList:action.argumentList];
+        }
+        
         id targetInstance = [[targetClazz alloc] init];
         
         if ([targetInstance isKindOfClass:UIViewController.class]) {
@@ -34,8 +39,6 @@
                 if (action.methodType == CKMethodTypeInstance) {
                     [targetViewController ck_invoke:action.methodName argumentList:action.argumentList];
                     return targetViewController;
-                } else if (action.methodType == CKMethodTypeClass) {
-                    return [targetClazz ck_invoke:action.methodName argumentList:action.argumentList];
                 }
             }
         }
