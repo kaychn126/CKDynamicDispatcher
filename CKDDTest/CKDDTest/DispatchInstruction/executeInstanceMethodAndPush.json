@@ -1,0 +1,11 @@
+{
+    "target": "SecondViewController",
+    "action": {
+        "methodName": "setPropertyWithUserId:userName:",
+        "methodType": 1,
+        "argumentList": [
+                         "bnbnm2bn9",
+                         "kaychn126"
+                         ]
+    }
+}

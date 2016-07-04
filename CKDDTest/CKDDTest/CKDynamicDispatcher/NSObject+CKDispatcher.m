@@ -9,6 +9,7 @@
 #import "NSObject+CKDispatcher.h"
 #import "CKDispatcherCenter.h"
 #import <objc/runtime.h>
+#import "CKDispatcherModel.h"
 
 static char *kAssociatedDispatcherProperty;
 

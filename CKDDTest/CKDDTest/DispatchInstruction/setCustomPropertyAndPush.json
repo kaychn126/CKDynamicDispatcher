@@ -1,0 +1,15 @@
+{
+    "propertyList": [
+                     {
+                     "propertyName": "user",
+                     "propertyClassName": "UserModel",
+                     "propertyList": [
+                                      {
+                                      "propertyName": "userName",
+                                      "propertyValue": "kaychn126"
+                                      }
+                                      ]
+                     }
+                     ],
+    "target": "SecondViewController"
+}

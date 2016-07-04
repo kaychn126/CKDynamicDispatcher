@@ -9,78 +9,28 @@
 #import <Foundation/Foundation.h>
 #import <UIKit/UIKit.h>
 
-/**
-  方法类型
- */
-typedef NS_ENUM(NSInteger, CKMethodType) {
-    /**
-     实例方法
-     */
-    CKMethodTypeInstance = 1,
-    /**
-     类方法
-     */
-    CKMethodTypeClass
-};
-
 NS_ASSUME_NONNULL_BEGIN
 
-@class CKDispatcherMethod,CKDispatcherProperty;
-
 @interface CKDispatcherCenter : NSObject
+
 /**
- *  属性赋值，执行方法，并返回return值
+ *  用push方式导航到目标页面
  *
- *  @param action       需要执行的方法
- *  @param target       目标
- *  @param propertyList 属性列表
+ *  @param params               目标页面参数（NSDictionary或者json格式的字符串）
+ *  @param navigationController navigationController
  *
- *  @return 返回值
  */
-+ (id)performAction:( CKDispatcherMethod * _Nullable )action
-         withTarget:( NSString * )target
-   withPropertyList:( NSArray <CKDispatcherProperty *>* _Nullable )propertyList;
++ (void) pushWithParams:(id)params
+    withNavigationController:(UINavigationController *)navigationController;
+
+/**
+ *  根据参数获取目标页面
+ *
+ *  @param params 目标页面参数（格式为NSDictionary或者json格式的字符串）
+ *
+ *  @return 当CKMethodType为CKMethodTypeInstance的时候返回目标页面实例，当CKMethodType为CKMethodTypeClass时返回nil
+ */
++ (id) viewControllerWithParams:(id)params;
 @end
 
-/**
- *  方法Model
- */
-@interface CKDispatcherMethod : NSObject
-/**
- *  方法名
- */
-@property (nonatomic, copy) NSString *methodName;
-
-/**
- *  参数列表
- */
-@property (nonatomic, copy) NSArray * _Nullable argumentList;
-
-@property (nonatomic, assign) CKMethodType methodType;
-@end
-
-/**
- *  属性Model
- */
-@interface CKDispatcherProperty : NSObject
-/**
- *  属性名
- */
-@property (nonatomic, copy) NSString *propertyName;
-
-/**
- *  属性值
- */
-@property (nonatomic, copy) id _Nullable propertyValue;
-
-/**
- *  自定义属性的类名
- */
-@property (nonatomic, copy) NSString * _Nullable propertyClassName;
-
-/**
- *  自定义属性自身的属性列表
- */
-@property (nonatomic, copy) NSArray <CKDispatcherProperty *> * _Nullable propertyList;
-@end
 NS_ASSUME_NONNULL_END

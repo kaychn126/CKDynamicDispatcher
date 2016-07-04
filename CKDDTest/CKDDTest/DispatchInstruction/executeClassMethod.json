@@ -1,0 +1,9 @@
+{
+    "propertyList": [
+                     {
+                     "propertyValue": "1212ioio",
+                     "propertyName": "userId"
+                     }
+                     ],
+    "target": "SecondViewController"
+}
