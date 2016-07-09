@@ -13,16 +13,16 @@
 		7336C13A1D26502900E5D592 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7336C1381D26502900E5D592 /* Main.storyboard */; };
 		7336C13C1D26502900E5D592 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7336C13B1D26502900E5D592 /* Assets.xcassets */; };
 		7336C13F1D26502900E5D592 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7336C13D1D26502900E5D592 /* LaunchScreen.storyboard */; };
-		7336C1491D266ABA00E5D592 /* CKDispatcherCenter.m in Sources */ = {isa = PBXBuildFile; fileRef = 7336C1481D266ABA00E5D592 /* CKDispatcherCenter.m */; };
-		7336C14C1D267FBC00E5D592 /* NSObject+CKDispatcher.m in Sources */ = {isa = PBXBuildFile; fileRef = 7336C14B1D267FBC00E5D592 /* NSObject+CKDispatcher.m */; };
-		734806BB1D2A252100D52E04 /* CKDispatcherModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 734806BA1D2A252100D52E04 /* CKDispatcherModel.m */; };
 		734806BE1D2A3AA600D52E04 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 734806BD1D2A3AA600D52E04 /* SecondViewController.m */; };
 		734806C11D2A418500D52E04 /* push.json in Resources */ = {isa = PBXBuildFile; fileRef = 734806C01D2A418500D52E04 /* push.json */; };
 		734806C31D2A42CD00D52E04 /* setPropertyAndPush.json in Resources */ = {isa = PBXBuildFile; fileRef = 734806C21D2A42CD00D52E04 /* setPropertyAndPush.json */; };
 		735D317D1D2A4C7000EAA463 /* setCustomPropertyAndPush.json in Resources */ = {isa = PBXBuildFile; fileRef = 735D317C1D2A4C7000EAA463 /* setCustomPropertyAndPush.json */; };
 		735D317F1D2A523700EAA463 /* executeInstanceMethodAndPush.json in Resources */ = {isa = PBXBuildFile; fileRef = 735D317E1D2A523700EAA463 /* executeInstanceMethodAndPush.json */; };
 		735D31811D2A549E00EAA463 /* executeClassMethod.json in Resources */ = {isa = PBXBuildFile; fileRef = 735D31801D2A549E00EAA463 /* executeClassMethod.json */; };
-		D6CB396E1D2697DD00FEE3C8 /* NSObject+DynamicInvoker.m in Sources */ = {isa = PBXBuildFile; fileRef = D6CB396D1D2697DD00FEE3C8 /* NSObject+DynamicInvoker.m */; };
+		D6E59AA01D30A80A006F5C69 /* CKDispatcherCenter.m in Sources */ = {isa = PBXBuildFile; fileRef = D6E59A991D30A80A006F5C69 /* CKDispatcherCenter.m */; };
+		D6E59AA11D30A80A006F5C69 /* CKDispatcherModel.m in Sources */ = {isa = PBXBuildFile; fileRef = D6E59A9B1D30A80A006F5C69 /* CKDispatcherModel.m */; };
+		D6E59AA21D30A80A006F5C69 /* NSObject+CKDispatcher.m in Sources */ = {isa = PBXBuildFile; fileRef = D6E59A9D1D30A80A006F5C69 /* NSObject+CKDispatcher.m */; };
+		D6E59AA31D30A80A006F5C69 /* NSObject+DynamicInvoker.m in Sources */ = {isa = PBXBuildFile; fileRef = D6E59A9F1D30A80A006F5C69 /* NSObject+DynamicInvoker.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,12 +36,6 @@
 		7336C13B1D26502900E5D592 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7336C13E1D26502900E5D592 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7336C1401D26502900E5D592 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		7336C1471D266ABA00E5D592 /* CKDispatcherCenter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CKDispatcherCenter.h; sourceTree = "<group>"; };
-		7336C1481D266ABA00E5D592 /* CKDispatcherCenter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CKDispatcherCenter.m; sourceTree = "<group>"; };
-		7336C14A1D267FBC00E5D592 /* NSObject+CKDispatcher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+CKDispatcher.h"; sourceTree = "<group>"; };
-		7336C14B1D267FBC00E5D592 /* NSObject+CKDispatcher.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+CKDispatcher.m"; sourceTree = "<group>"; };
-		734806B91D2A252100D52E04 /* CKDispatcherModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CKDispatcherModel.h; sourceTree = "<group>"; };
-		734806BA1D2A252100D52E04 /* CKDispatcherModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CKDispatcherModel.m; sourceTree = "<group>"; };
 		734806BC1D2A3AA600D52E04 /* SecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
 		734806BD1D2A3AA600D52E04 /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
 		734806C01D2A418500D52E04 /* push.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = push.json; sourceTree = "<group>"; };
@@ -49,8 +43,14 @@
 		735D317C1D2A4C7000EAA463 /* setCustomPropertyAndPush.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = setCustomPropertyAndPush.json; sourceTree = "<group>"; };
 		735D317E1D2A523700EAA463 /* executeInstanceMethodAndPush.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = executeInstanceMethodAndPush.json; sourceTree = "<group>"; };
 		735D31801D2A549E00EAA463 /* executeClassMethod.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = executeClassMethod.json; sourceTree = "<group>"; };
-		D6CB396C1D2697DD00FEE3C8 /* NSObject+DynamicInvoker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+DynamicInvoker.h"; sourceTree = "<group>"; };
-		D6CB396D1D2697DD00FEE3C8 /* NSObject+DynamicInvoker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+DynamicInvoker.m"; sourceTree = "<group>"; };
+		D6E59A981D30A80A006F5C69 /* CKDispatcherCenter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CKDispatcherCenter.h; sourceTree = "<group>"; };
+		D6E59A991D30A80A006F5C69 /* CKDispatcherCenter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CKDispatcherCenter.m; sourceTree = "<group>"; };
+		D6E59A9A1D30A80A006F5C69 /* CKDispatcherModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CKDispatcherModel.h; sourceTree = "<group>"; };
+		D6E59A9B1D30A80A006F5C69 /* CKDispatcherModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CKDispatcherModel.m; sourceTree = "<group>"; };
+		D6E59A9C1D30A80A006F5C69 /* NSObject+CKDispatcher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+CKDispatcher.h"; sourceTree = "<group>"; };
+		D6E59A9D1D30A80A006F5C69 /* NSObject+CKDispatcher.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+CKDispatcher.m"; sourceTree = "<group>"; };
+		D6E59A9E1D30A80A006F5C69 /* NSObject+DynamicInvoker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+DynamicInvoker.h"; sourceTree = "<group>"; };
+		D6E59A9F1D30A80A006F5C69 /* NSObject+DynamicInvoker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+DynamicInvoker.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,7 +83,7 @@
 		7336C12E1D26502900E5D592 /* CKDDTest */ = {
 			isa = PBXGroup;
 			children = (
-				7336C1461D26503D00E5D592 /* CKDynamicDispatcher */,
+				D6E59A971D30A80A006F5C69 /* CKDynamicDispatcher */,
 				7336C1321D26502900E5D592 /* AppDelegate.h */,
 				7336C1331D26502900E5D592 /* AppDelegate.m */,
 				7336C1351D26502900E5D592 /* ViewController.h */,
@@ -108,21 +108,6 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		7336C1461D26503D00E5D592 /* CKDynamicDispatcher */ = {
-			isa = PBXGroup;
-			children = (
-				7336C1471D266ABA00E5D592 /* CKDispatcherCenter.h */,
-				7336C1481D266ABA00E5D592 /* CKDispatcherCenter.m */,
-				7336C14A1D267FBC00E5D592 /* NSObject+CKDispatcher.h */,
-				7336C14B1D267FBC00E5D592 /* NSObject+CKDispatcher.m */,
-				D6CB396C1D2697DD00FEE3C8 /* NSObject+DynamicInvoker.h */,
-				D6CB396D1D2697DD00FEE3C8 /* NSObject+DynamicInvoker.m */,
-				734806B91D2A252100D52E04 /* CKDispatcherModel.h */,
-				734806BA1D2A252100D52E04 /* CKDispatcherModel.m */,
-			);
-			path = CKDynamicDispatcher;
-			sourceTree = "<group>";
-		};
 		734806BF1D2A416100D52E04 /* DispatchInstruction */ = {
 			isa = PBXGroup;
 			children = (
@@ -133,6 +118,22 @@
 				735D31801D2A549E00EAA463 /* executeClassMethod.json */,
 			);
 			path = DispatchInstruction;
+			sourceTree = "<group>";
+		};
+		D6E59A971D30A80A006F5C69 /* CKDynamicDispatcher */ = {
+			isa = PBXGroup;
+			children = (
+				D6E59A981D30A80A006F5C69 /* CKDispatcherCenter.h */,
+				D6E59A991D30A80A006F5C69 /* CKDispatcherCenter.m */,
+				D6E59A9A1D30A80A006F5C69 /* CKDispatcherModel.h */,
+				D6E59A9B1D30A80A006F5C69 /* CKDispatcherModel.m */,
+				D6E59A9C1D30A80A006F5C69 /* NSObject+CKDispatcher.h */,
+				D6E59A9D1D30A80A006F5C69 /* NSObject+CKDispatcher.m */,
+				D6E59A9E1D30A80A006F5C69 /* NSObject+DynamicInvoker.h */,
+				D6E59A9F1D30A80A006F5C69 /* NSObject+DynamicInvoker.m */,
+			);
+			name = CKDynamicDispatcher;
+			path = ../../CKDynamicDispatcher;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -211,12 +212,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7336C14C1D267FBC00E5D592 /* NSObject+CKDispatcher.m in Sources */,
 				7336C1371D26502900E5D592 /* ViewController.m in Sources */,
-				D6CB396E1D2697DD00FEE3C8 /* NSObject+DynamicInvoker.m in Sources */,
-				7336C1491D266ABA00E5D592 /* CKDispatcherCenter.m in Sources */,
+				D6E59AA01D30A80A006F5C69 /* CKDispatcherCenter.m in Sources */,
+				D6E59AA31D30A80A006F5C69 /* NSObject+DynamicInvoker.m in Sources */,
+				D6E59AA11D30A80A006F5C69 /* CKDispatcherModel.m in Sources */,
 				734806BE1D2A3AA600D52E04 /* SecondViewController.m in Sources */,
-				734806BB1D2A252100D52E04 /* CKDispatcherModel.m in Sources */,
+				D6E59AA21D30A80A006F5C69 /* NSObject+CKDispatcher.m in Sources */,
 				7336C1341D26502900E5D592 /* AppDelegate.m in Sources */,
 				7336C1311D26502900E5D592 /* main.m in Sources */,
 			);
