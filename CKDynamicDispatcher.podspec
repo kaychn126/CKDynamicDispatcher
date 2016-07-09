@@ -77,7 +77,7 @@ Pod::Spec.new do |s|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  s.source       = { :git => "https://github.com/kaychn126/CKDynamicDispatcher", :tag => s.version.to_s }
+  s.source       = { :git => "https://github.com/kaychn126/CKDynamicDispatcher.git", :tag => s.version.to_s }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
