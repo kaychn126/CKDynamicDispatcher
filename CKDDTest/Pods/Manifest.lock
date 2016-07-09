@@ -1,0 +1,12 @@
+PODS:
+  - CKDynamicDispatcher (1.0.0)
+
+DEPENDENCIES:
+  - CKDynamicDispatcher
+
+SPEC CHECKSUMS:
+  CKDynamicDispatcher: 845860590e1450f3a4cdff6f44db9826f29e490a
+
+PODFILE CHECKSUM: 2a5e18cf0988e4187c1f0f549f3e73e4f67f4a0c
+
+COCOAPODS: 1.0.1

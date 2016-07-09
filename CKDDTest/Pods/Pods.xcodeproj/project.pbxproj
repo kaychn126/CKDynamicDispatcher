@@ -1,0 +1,481 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0D894C5CFEF946308A032E0F233AEEC8 /* NSObject+CKDispatcher.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A271E85DF65AEDE575D1B6AFE148739 /* NSObject+CKDispatcher.m */; };
+		0F064AB392EE1359DC9E304B894A907D /* CKDispatcherModel.m in Sources */ = {isa = PBXBuildFile; fileRef = D12C5CF0F626BEC8043EF129BE3B0A68 /* CKDispatcherModel.m */; };
+		137B805153FD9F630612F38BC0F38D63 /* CKDynamicDispatcher-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A13DB18A8C3AC4B51D55835C8147CD3C /* CKDynamicDispatcher-dummy.m */; };
+		273649AED05AAC2C73821FD029E855AE /* NSObject+DynamicInvoker.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A99881AFA1ECF582768952B949D7C56 /* NSObject+DynamicInvoker.m */; };
+		2DC84DA4F9F7A1D8BDEFBC8CD5183E93 /* CKDispatcherCenter.h in Headers */ = {isa = PBXBuildFile; fileRef = D14CEE6BA8B2B0B2CB081DE8A5F36413 /* CKDispatcherCenter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4B0B1122068DCBDC3AC9264CF62273D5 /* Pods-CKDDTest-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 85BD6E250FE3FF35DA3B7A5E91087109 /* Pods-CKDDTest-dummy.m */; };
+		5575E6E898E2DFA2CD21E091F99E4176 /* NSObject+CKDispatcher.h in Headers */ = {isa = PBXBuildFile; fileRef = 52493CB012408297B0C9DF97C0A136F3 /* NSObject+CKDispatcher.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5AEB3BD9F26A4BEAB97C8EA4BBB87B5E /* CKDispatcherModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 2E967E9089C5B533092A7A1FD22075B4 /* CKDispatcherModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A5CE92247420AE3E1446081FFCC3B169 /* CKDispatcherCenter.m in Sources */ = {isa = PBXBuildFile; fileRef = 2375F404E572D3DFEC3AD550D56354A8 /* CKDispatcherCenter.m */; };
+		CC3CF360A0D5B25186E3C652CB33BF66 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
+		D30A447A6A58C45793F2A08E44F3D8B2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
+		D4FA0F4B03CCC5FB0F77C1247F301DE4 /* NSObject+DynamicInvoker.h in Headers */ = {isa = PBXBuildFile; fileRef = 9442845915CBBF9B9F53FFDC0A783954 /* NSObject+DynamicInvoker.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9C8FC8D846031466E6D9AD55E9E45E46 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9EFBAA22A6EC3FFA5BE01410AC97B000;
+			remoteInfo = CKDynamicDispatcher;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1DA883D2F90447B6B1819AA0B47D39B0 /* libPods-CKDDTest.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CKDDTest.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2375F404E572D3DFEC3AD550D56354A8 /* CKDispatcherCenter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CKDispatcherCenter.m; path = CKDynamicDispatcher/CKDispatcherCenter.m; sourceTree = "<group>"; };
+		2A271E85DF65AEDE575D1B6AFE148739 /* NSObject+CKDispatcher.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSObject+CKDispatcher.m"; path = "CKDynamicDispatcher/NSObject+CKDispatcher.m"; sourceTree = "<group>"; };
+		2E967E9089C5B533092A7A1FD22075B4 /* CKDispatcherModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CKDispatcherModel.h; path = CKDynamicDispatcher/CKDispatcherModel.h; sourceTree = "<group>"; };
+		395C4141AFF447940E8932C01E94E70A /* libCKDynamicDispatcher.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libCKDynamicDispatcher.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		3FEE512AC90689A5597CAC9BDDB4A11C /* CKDynamicDispatcher-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CKDynamicDispatcher-prefix.pch"; sourceTree = "<group>"; };
+		51CBA844DA5AEFAC9B54D4CFAEC5EF9F /* Pods-CKDDTest-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CKDDTest-frameworks.sh"; sourceTree = "<group>"; };
+		522AAB90EF390F754B6DB2F6A6F06204 /* Pods-CKDDTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CKDDTest.debug.xcconfig"; sourceTree = "<group>"; };
+		52493CB012408297B0C9DF97C0A136F3 /* NSObject+CKDispatcher.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSObject+CKDispatcher.h"; path = "CKDynamicDispatcher/NSObject+CKDispatcher.h"; sourceTree = "<group>"; };
+		52D76B2D2A4CE8921CF6D5699ADD2B7F /* CKDynamicDispatcher.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CKDynamicDispatcher.xcconfig; sourceTree = "<group>"; };
+		60D5D4CF70B86AAB5A8F8B591ED3BCC9 /* Pods-CKDDTest-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CKDDTest-resources.sh"; sourceTree = "<group>"; };
+		7D3892086BC7BBA44C281E365EC782E4 /* Pods-CKDDTest-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CKDDTest-acknowledgements.plist"; sourceTree = "<group>"; };
+		85BD6E250FE3FF35DA3B7A5E91087109 /* Pods-CKDDTest-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CKDDTest-dummy.m"; sourceTree = "<group>"; };
+		8A99881AFA1ECF582768952B949D7C56 /* NSObject+DynamicInvoker.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSObject+DynamicInvoker.m"; path = "CKDynamicDispatcher/NSObject+DynamicInvoker.m"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9442845915CBBF9B9F53FFDC0A783954 /* NSObject+DynamicInvoker.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSObject+DynamicInvoker.h"; path = "CKDynamicDispatcher/NSObject+DynamicInvoker.h"; sourceTree = "<group>"; };
+		A13DB18A8C3AC4B51D55835C8147CD3C /* CKDynamicDispatcher-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CKDynamicDispatcher-dummy.m"; sourceTree = "<group>"; };
+		C35FE8B51DDF249EF83B49A84C39DA39 /* Pods-CKDDTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CKDDTest.release.xcconfig"; sourceTree = "<group>"; };
+		CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		D12C5CF0F626BEC8043EF129BE3B0A68 /* CKDispatcherModel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CKDispatcherModel.m; path = CKDynamicDispatcher/CKDispatcherModel.m; sourceTree = "<group>"; };
+		D14CEE6BA8B2B0B2CB081DE8A5F36413 /* CKDispatcherCenter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CKDispatcherCenter.h; path = CKDynamicDispatcher/CKDispatcherCenter.h; sourceTree = "<group>"; };
+		F4D4E859B732DB87DFF9006097CDC6F5 /* Pods-CKDDTest-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CKDDTest-acknowledgements.markdown"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4A2A70165D976E7A4D2EAF4825605964 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D30A447A6A58C45793F2A08E44F3D8B2 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		840E423F01A683DEAD99DE34EE94670A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC3CF360A0D5B25186E3C652CB33BF66 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0FEFD3536B8C8836CBEF67A08926425D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				395C4141AFF447940E8932C01E94E70A /* libCKDynamicDispatcher.a */,
+				1DA883D2F90447B6B1819AA0B47D39B0 /* libPods-CKDDTest.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		178FB71D00FD88F0EAE52BE9A5058884 /* Pods-CKDDTest */ = {
+			isa = PBXGroup;
+			children = (
+				F4D4E859B732DB87DFF9006097CDC6F5 /* Pods-CKDDTest-acknowledgements.markdown */,
+				7D3892086BC7BBA44C281E365EC782E4 /* Pods-CKDDTest-acknowledgements.plist */,
+				85BD6E250FE3FF35DA3B7A5E91087109 /* Pods-CKDDTest-dummy.m */,
+				51CBA844DA5AEFAC9B54D4CFAEC5EF9F /* Pods-CKDDTest-frameworks.sh */,
+				60D5D4CF70B86AAB5A8F8B591ED3BCC9 /* Pods-CKDDTest-resources.sh */,
+				522AAB90EF390F754B6DB2F6A6F06204 /* Pods-CKDDTest.debug.xcconfig */,
+				C35FE8B51DDF249EF83B49A84C39DA39 /* Pods-CKDDTest.release.xcconfig */,
+			);
+			name = "Pods-CKDDTest";
+			path = "Target Support Files/Pods-CKDDTest";
+			sourceTree = "<group>";
+		};
+		25829BC04F8E031BEEAB6D71CE980D6F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				28212EFD622131D023EBE155B897B2B5 /* CKDynamicDispatcher */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		28212EFD622131D023EBE155B897B2B5 /* CKDynamicDispatcher */ = {
+			isa = PBXGroup;
+			children = (
+				D14CEE6BA8B2B0B2CB081DE8A5F36413 /* CKDispatcherCenter.h */,
+				2375F404E572D3DFEC3AD550D56354A8 /* CKDispatcherCenter.m */,
+				2E967E9089C5B533092A7A1FD22075B4 /* CKDispatcherModel.h */,
+				D12C5CF0F626BEC8043EF129BE3B0A68 /* CKDispatcherModel.m */,
+				52493CB012408297B0C9DF97C0A136F3 /* NSObject+CKDispatcher.h */,
+				2A271E85DF65AEDE575D1B6AFE148739 /* NSObject+CKDispatcher.m */,
+				9442845915CBBF9B9F53FFDC0A783954 /* NSObject+DynamicInvoker.h */,
+				8A99881AFA1ECF582768952B949D7C56 /* NSObject+DynamicInvoker.m */,
+				396B287949265C13B6EFF59E0FAB8910 /* Support Files */,
+			);
+			path = CKDynamicDispatcher;
+			sourceTree = "<group>";
+		};
+		396B287949265C13B6EFF59E0FAB8910 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				52D76B2D2A4CE8921CF6D5699ADD2B7F /* CKDynamicDispatcher.xcconfig */,
+				A13DB18A8C3AC4B51D55835C8147CD3C /* CKDynamicDispatcher-dummy.m */,
+				3FEE512AC90689A5597CAC9BDDB4A11C /* CKDynamicDispatcher-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/CKDynamicDispatcher";
+			sourceTree = "<group>";
+		};
+		3DCAB2B7CDE207B3958B6CB957FCC758 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		6348C93469C7625EB0845522F5F38B06 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				178FB71D00FD88F0EAE52BE9A5058884 /* Pods-CKDDTest */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				25829BC04F8E031BEEAB6D71CE980D6F /* Pods */,
+				0FEFD3536B8C8836CBEF67A08926425D /* Products */,
+				6348C93469C7625EB0845522F5F38B06 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3DCAB2B7CDE207B3958B6CB957FCC758 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		9E9814ACBA6AEF7ED938597D05F54850 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2DC84DA4F9F7A1D8BDEFBC8CD5183E93 /* CKDispatcherCenter.h in Headers */,
+				5AEB3BD9F26A4BEAB97C8EA4BBB87B5E /* CKDispatcherModel.h in Headers */,
+				5575E6E898E2DFA2CD21E091F99E4176 /* NSObject+CKDispatcher.h in Headers */,
+				D4FA0F4B03CCC5FB0F77C1247F301DE4 /* NSObject+DynamicInvoker.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		9EFBAA22A6EC3FFA5BE01410AC97B000 /* CKDynamicDispatcher */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 628A4288994B14B46E2EBA90AD6A10AA /* Build configuration list for PBXNativeTarget "CKDynamicDispatcher" */;
+			buildPhases = (
+				E04B26932E59394946D480F77DE6A15E /* Sources */,
+				4A2A70165D976E7A4D2EAF4825605964 /* Frameworks */,
+				9E9814ACBA6AEF7ED938597D05F54850 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CKDynamicDispatcher;
+			productName = CKDynamicDispatcher;
+			productReference = 395C4141AFF447940E8932C01E94E70A /* libCKDynamicDispatcher.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		F7CCC7BE97EC66FD465BB9052C327B58 /* Pods-CKDDTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BCEF3BA9BC1975D8B7E1DF359DE9CF28 /* Build configuration list for PBXNativeTarget "Pods-CKDDTest" */;
+			buildPhases = (
+				2FEA723806CB1B7AF946BE20A7BB36A2 /* Sources */,
+				840E423F01A683DEAD99DE34EE94670A /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CEDAFE64E9700A6D78EEA4F5B7B54DEE /* PBXTargetDependency */,
+			);
+			name = "Pods-CKDDTest";
+			productName = "Pods-CKDDTest";
+			productReference = 1DA883D2F90447B6B1819AA0B47D39B0 /* libPods-CKDDTest.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 0FEFD3536B8C8836CBEF67A08926425D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9EFBAA22A6EC3FFA5BE01410AC97B000 /* CKDynamicDispatcher */,
+				F7CCC7BE97EC66FD465BB9052C327B58 /* Pods-CKDDTest */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2FEA723806CB1B7AF946BE20A7BB36A2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4B0B1122068DCBDC3AC9264CF62273D5 /* Pods-CKDDTest-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E04B26932E59394946D480F77DE6A15E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A5CE92247420AE3E1446081FFCC3B169 /* CKDispatcherCenter.m in Sources */,
+				0F064AB392EE1359DC9E304B894A907D /* CKDispatcherModel.m in Sources */,
+				137B805153FD9F630612F38BC0F38D63 /* CKDynamicDispatcher-dummy.m in Sources */,
+				0D894C5CFEF946308A032E0F233AEEC8 /* NSObject+CKDispatcher.m in Sources */,
+				273649AED05AAC2C73821FD029E855AE /* NSObject+DynamicInvoker.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CEDAFE64E9700A6D78EEA4F5B7B54DEE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = CKDynamicDispatcher;
+			target = 9EFBAA22A6EC3FFA5BE01410AC97B000 /* CKDynamicDispatcher */;
+			targetProxy = 9C8FC8D846031466E6D9AD55E9E45E46 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		351A2549690D512F5D5079C1C529C785 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 522AAB90EF390F754B6DB2F6A6F06204 /* Pods-CKDDTest.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		3E4C19576612666D8DC3F52C7A61EB6D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 52D76B2D2A4CE8921CF6D5699ADD2B7F /* CKDynamicDispatcher.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/CKDynamicDispatcher/CKDynamicDispatcher-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		47BEF9D903506B003EA5C2B249729489 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		532A29EBDB2FB4817D54B3E7C94A43F4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 52D76B2D2A4CE8921CF6D5699ADD2B7F /* CKDynamicDispatcher.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/CKDynamicDispatcher/CKDynamicDispatcher-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		60671C9CE01EBD5AAF629CD414E6D1E8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C35FE8B51DDF249EF83B49A84C39DA39 /* Pods-CKDDTest.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		AAF678CED40D3499169D10F63CA0719E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				47BEF9D903506B003EA5C2B249729489 /* Debug */,
+				AAF678CED40D3499169D10F63CA0719E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		628A4288994B14B46E2EBA90AD6A10AA /* Build configuration list for PBXNativeTarget "CKDynamicDispatcher" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				532A29EBDB2FB4817D54B3E7C94A43F4 /* Debug */,
+				3E4C19576612666D8DC3F52C7A61EB6D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BCEF3BA9BC1975D8B7E1DF359DE9CF28 /* Build configuration list for PBXNativeTarget "Pods-CKDDTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				351A2549690D512F5D5079C1C529C785 /* Debug */,
+				60671C9CE01EBD5AAF629CD414E6D1E8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
