@@ -16,6 +16,7 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    
     // Do any additional setup after loading the view, typically from a nib.
 }
 
@@ -77,10 +78,36 @@
     }
 }
 
+- (IBAction)openUrlPush:(id)sender {
+    [[UIApplication sharedApplication] openURL:[ViewController urlWithPrefix:@"ckddtest://" params:[self loadInstructionWithName:@"setCustomPropertyAndPush"]]];
+}
 
 - (NSString *)loadInstructionWithName:(NSString*)name{
     NSString *path = [[NSBundle mainBundle] pathForResource:name ofType:@"json"];
     NSString *dispatchString = [NSString stringWithContentsOfFile:path encoding:NSUTF8StringEncoding error:nil];
     return dispatchString;
+}
+
+#pragma mark- Util
+
++ (NSURL *)urlWithPrefix:(NSString *)prefix params:(NSString *)params{
+    if (prefix && params) {
+        NSString *host = [NSString stringWithFormat:@"%@",prefix];
+        NSString *urlString = [NSString stringWithFormat:@"%@?params=%@",host,params];
+        urlString = [urlString stringByAddingPercentEncodingWithAllowedCharacters:[NSCharacterSet URLQueryAllowedCharacterSet]];
+        return [NSURL URLWithString:urlString];
+    }
+    return nil;
+}
+
++ (NSDictionary *)parseUrl:(NSURL *)url{
+    if (url) {
+        NSString *urlString = [url.absoluteString stringByRemovingPercentEncoding];
+        NSArray *urlArray = [urlString componentsSeparatedByString:@"="];
+        if (urlArray.count > 1) {
+            return [NSJSONSerialization JSONObjectWithData:[[urlArray lastObject] dataUsingEncoding:NSUTF8StringEncoding] options:NSJSONReadingMutableContainers error:nil];
+        }
+    }
+    return nil;
 }
 @end

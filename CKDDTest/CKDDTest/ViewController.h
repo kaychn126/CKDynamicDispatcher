@@ -10,6 +10,6 @@
 
 @interface ViewController : UIViewController
 
-
++ (NSDictionary *)parseUrl:(NSURL *)url;
 @end
 

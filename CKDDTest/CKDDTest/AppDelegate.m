@@ -7,6 +7,8 @@
 //
 
 #import "AppDelegate.h"
+#import "ViewController.h"
+#import "CKDispatcherCenter.h"
 
 @interface AppDelegate ()
 
@@ -17,6 +19,17 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    return YES;
+}
+
+- (BOOL)application:(UIApplication *)app openURL:(NSURL *)url options:(NSDictionary<NSString *,id> *)options
+{
+    NSDictionary *params = [ViewController parseUrl:url];
+    if (params) {
+        UINavigationController *nav = (UINavigationController*)[UIApplication sharedApplication].keyWindow.rootViewController;
+        [nav popToRootViewControllerAnimated:NO];
+        [CKDispatcherCenter pushWithParams:params withNavigationController:nav];
+    }
     return YES;
 }
 

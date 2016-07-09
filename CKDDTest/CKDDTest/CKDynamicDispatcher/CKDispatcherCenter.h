@@ -13,6 +13,7 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface CKDispatcherCenter : NSObject
 
+#pragma mark- Core
 /**
  *  用push方式导航到目标页面
  *
@@ -31,6 +32,7 @@ NS_ASSUME_NONNULL_BEGIN
  *  @return 当CKMethodType为CKMethodTypeInstance的时候返回目标页面实例，当CKMethodType为CKMethodTypeClass时返回nil
  */
 + (id) viewControllerWithParams:(id)params;
+
 @end
 
 NS_ASSUME_NONNULL_END
