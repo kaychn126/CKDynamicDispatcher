@@ -7,22 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		709FF0E53B45E4389C6A5881 /* libPods-CKDDTest.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A37914C7851F7D49207D14E /* libPods-CKDDTest.a */; };
 		7336C1311D26502900E5D592 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7336C1301D26502900E5D592 /* main.m */; };
 		7336C1341D26502900E5D592 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7336C1331D26502900E5D592 /* AppDelegate.m */; };
 		7336C1371D26502900E5D592 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7336C1361D26502900E5D592 /* ViewController.m */; };
 		7336C13A1D26502900E5D592 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7336C1381D26502900E5D592 /* Main.storyboard */; };
 		7336C13C1D26502900E5D592 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7336C13B1D26502900E5D592 /* Assets.xcassets */; };
 		7336C13F1D26502900E5D592 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7336C13D1D26502900E5D592 /* LaunchScreen.storyboard */; };
-		7336C1491D266ABA00E5D592 /* CKDispatcherCenter.m in Sources */ = {isa = PBXBuildFile; fileRef = 7336C1481D266ABA00E5D592 /* CKDispatcherCenter.m */; };
-		7336C14C1D267FBC00E5D592 /* NSObject+CKDispatcher.m in Sources */ = {isa = PBXBuildFile; fileRef = 7336C14B1D267FBC00E5D592 /* NSObject+CKDispatcher.m */; };
-		734806BB1D2A252100D52E04 /* CKDispatcherModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 734806BA1D2A252100D52E04 /* CKDispatcherModel.m */; };
 		734806BE1D2A3AA600D52E04 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 734806BD1D2A3AA600D52E04 /* SecondViewController.m */; };
 		734806C11D2A418500D52E04 /* push.json in Resources */ = {isa = PBXBuildFile; fileRef = 734806C01D2A418500D52E04 /* push.json */; };
 		734806C31D2A42CD00D52E04 /* setPropertyAndPush.json in Resources */ = {isa = PBXBuildFile; fileRef = 734806C21D2A42CD00D52E04 /* setPropertyAndPush.json */; };
 		735D317D1D2A4C7000EAA463 /* setCustomPropertyAndPush.json in Resources */ = {isa = PBXBuildFile; fileRef = 735D317C1D2A4C7000EAA463 /* setCustomPropertyAndPush.json */; };
 		735D317F1D2A523700EAA463 /* executeInstanceMethodAndPush.json in Resources */ = {isa = PBXBuildFile; fileRef = 735D317E1D2A523700EAA463 /* executeInstanceMethodAndPush.json */; };
 		735D31811D2A549E00EAA463 /* executeClassMethod.json in Resources */ = {isa = PBXBuildFile; fileRef = 735D31801D2A549E00EAA463 /* executeClassMethod.json */; };
-		D6CB396E1D2697DD00FEE3C8 /* NSObject+DynamicInvoker.m in Sources */ = {isa = PBXBuildFile; fileRef = D6CB396D1D2697DD00FEE3C8 /* NSObject+DynamicInvoker.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,12 +33,6 @@
 		7336C13B1D26502900E5D592 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7336C13E1D26502900E5D592 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7336C1401D26502900E5D592 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		7336C1471D266ABA00E5D592 /* CKDispatcherCenter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CKDispatcherCenter.h; sourceTree = "<group>"; };
-		7336C1481D266ABA00E5D592 /* CKDispatcherCenter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CKDispatcherCenter.m; sourceTree = "<group>"; };
-		7336C14A1D267FBC00E5D592 /* NSObject+CKDispatcher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+CKDispatcher.h"; sourceTree = "<group>"; };
-		7336C14B1D267FBC00E5D592 /* NSObject+CKDispatcher.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+CKDispatcher.m"; sourceTree = "<group>"; };
-		734806B91D2A252100D52E04 /* CKDispatcherModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CKDispatcherModel.h; sourceTree = "<group>"; };
-		734806BA1D2A252100D52E04 /* CKDispatcherModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CKDispatcherModel.m; sourceTree = "<group>"; };
 		734806BC1D2A3AA600D52E04 /* SecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
 		734806BD1D2A3AA600D52E04 /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
 		734806C01D2A418500D52E04 /* push.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = push.json; sourceTree = "<group>"; };
@@ -49,8 +40,9 @@
 		735D317C1D2A4C7000EAA463 /* setCustomPropertyAndPush.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = setCustomPropertyAndPush.json; sourceTree = "<group>"; };
 		735D317E1D2A523700EAA463 /* executeInstanceMethodAndPush.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = executeInstanceMethodAndPush.json; sourceTree = "<group>"; };
 		735D31801D2A549E00EAA463 /* executeClassMethod.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = executeClassMethod.json; sourceTree = "<group>"; };
-		D6CB396C1D2697DD00FEE3C8 /* NSObject+DynamicInvoker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+DynamicInvoker.h"; sourceTree = "<group>"; };
-		D6CB396D1D2697DD00FEE3C8 /* NSObject+DynamicInvoker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+DynamicInvoker.m"; sourceTree = "<group>"; };
+		7A37914C7851F7D49207D14E /* libPods-CKDDTest.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CKDDTest.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DD953F184BC754850C3EC2C0 /* Pods-CKDDTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CKDDTest.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CKDDTest/Pods-CKDDTest.debug.xcconfig"; sourceTree = "<group>"; };
+		E19AB77C8DDE7F8B874BCAE5 /* Pods-CKDDTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CKDDTest.release.xcconfig"; path = "Pods/Target Support Files/Pods-CKDDTest/Pods-CKDDTest.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,17 +50,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				709FF0E53B45E4389C6A5881 /* libPods-CKDDTest.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		24DEE83ACB6A01D55100C6C4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7A37914C7851F7D49207D14E /* libPods-CKDDTest.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		7336C1231D26502900E5D592 = {
 			isa = PBXGroup;
 			children = (
 				7336C12E1D26502900E5D592 /* CKDDTest */,
 				7336C12D1D26502900E5D592 /* Products */,
+				B0602927E826A9B4F88BB950 /* Pods */,
+				24DEE83ACB6A01D55100C6C4 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -83,7 +86,6 @@
 		7336C12E1D26502900E5D592 /* CKDDTest */ = {
 			isa = PBXGroup;
 			children = (
-				7336C1461D26503D00E5D592 /* CKDynamicDispatcher */,
 				7336C1321D26502900E5D592 /* AppDelegate.h */,
 				7336C1331D26502900E5D592 /* AppDelegate.m */,
 				7336C1351D26502900E5D592 /* ViewController.h */,
@@ -108,21 +110,6 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		7336C1461D26503D00E5D592 /* CKDynamicDispatcher */ = {
-			isa = PBXGroup;
-			children = (
-				7336C1471D266ABA00E5D592 /* CKDispatcherCenter.h */,
-				7336C1481D266ABA00E5D592 /* CKDispatcherCenter.m */,
-				7336C14A1D267FBC00E5D592 /* NSObject+CKDispatcher.h */,
-				7336C14B1D267FBC00E5D592 /* NSObject+CKDispatcher.m */,
-				D6CB396C1D2697DD00FEE3C8 /* NSObject+DynamicInvoker.h */,
-				D6CB396D1D2697DD00FEE3C8 /* NSObject+DynamicInvoker.m */,
-				734806B91D2A252100D52E04 /* CKDispatcherModel.h */,
-				734806BA1D2A252100D52E04 /* CKDispatcherModel.m */,
-			);
-			path = CKDynamicDispatcher;
-			sourceTree = "<group>";
-		};
 		734806BF1D2A416100D52E04 /* DispatchInstruction */ = {
 			isa = PBXGroup;
 			children = (
@@ -135,6 +122,15 @@
 			path = DispatchInstruction;
 			sourceTree = "<group>";
 		};
+		B0602927E826A9B4F88BB950 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DD953F184BC754850C3EC2C0 /* Pods-CKDDTest.debug.xcconfig */,
+				E19AB77C8DDE7F8B874BCAE5 /* Pods-CKDDTest.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -142,9 +138,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7336C1431D26502900E5D592 /* Build configuration list for PBXNativeTarget "CKDDTest" */;
 			buildPhases = (
+				33808E3FF89F5E739441766A /* [CP] Check Pods Manifest.lock */,
 				7336C1281D26502900E5D592 /* Sources */,
 				7336C1291D26502900E5D592 /* Frameworks */,
 				7336C12A1D26502900E5D592 /* Resources */,
+				D66A77DC0D7BEC972D9EC745 /* [CP] Embed Pods Frameworks */,
+				A31D5E5B62396136387B776E /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -206,17 +205,61 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		33808E3FF89F5E739441766A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		A31D5E5B62396136387B776E /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CKDDTest/Pods-CKDDTest-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D66A77DC0D7BEC972D9EC745 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CKDDTest/Pods-CKDDTest-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		7336C1281D26502900E5D592 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7336C14C1D267FBC00E5D592 /* NSObject+CKDispatcher.m in Sources */,
 				7336C1371D26502900E5D592 /* ViewController.m in Sources */,
-				D6CB396E1D2697DD00FEE3C8 /* NSObject+DynamicInvoker.m in Sources */,
-				7336C1491D266ABA00E5D592 /* CKDispatcherCenter.m in Sources */,
 				734806BE1D2A3AA600D52E04 /* SecondViewController.m in Sources */,
-				734806BB1D2A252100D52E04 /* CKDispatcherModel.m in Sources */,
 				7336C1341D26502900E5D592 /* AppDelegate.m in Sources */,
 				7336C1311D26502900E5D592 /* main.m in Sources */,
 			);
@@ -328,24 +371,26 @@
 		};
 		7336C1441D26502900E5D592 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DD953F184BC754850C3EC2C0 /* Pods-CKDDTest.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = CKDDTest/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.easyBenefitEnterprise.CKDDTest;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ck.CKDDTest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
 		};
 		7336C1451D26502900E5D592 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E19AB77C8DDE7F8B874BCAE5 /* Pods-CKDDTest.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = CKDDTest/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.easyBenefitEnterprise.CKDDTest;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ck.CKDDTest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
